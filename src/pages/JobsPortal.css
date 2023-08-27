@@ -1,0 +1,92 @@
+.jobsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: Poppins;
+}
+
+.jobHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  width: 1100px;
+  height: 72px;
+  align-items: center;
+}
+
+.jobHeader .login {
+  color: #338573;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 35px;
+  margin-left: 600px;
+}
+
+.jobnames p {
+  color: #116eff;
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.jobButtons button {
+  border: none;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background: #136ef7;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 30px;
+}
+
+table {
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin-bottom: 2px;
+}
+
+.jobHeader p {
+  width: 249px;
+  height: 72px;
+}
+
+.jobList {
+  color: #000;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px; /* 266.667% */
+  width: 314px;
+}
+
+.jobType {
+  background-color: #fff;
+}
+
+td img {
+  padding: 5px;
+}
+
+.jobList p {
+  margin-left: 30px;
+}

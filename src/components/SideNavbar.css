@@ -1,0 +1,183 @@
+.sideNav {
+  width: 111px;
+  height: 850px;
+  background: #22506c;
+  box-shadow: 4px 0px 9px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  flex-grow: 1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ham {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ham img {
+  width: 20.956px;
+  height: 20.694px;
+  cursor: pointer;
+}
+
+.dashboard .yellowDash {
+  width: 20.956px;
+  height: 20.694px;
+}
+
+.dashboard p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.job p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.image img:first-child {
+  width: 8px;
+  height: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.image img:nth-child(2) {
+  width: 20px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.message img {
+  width: 18px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.message p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.events img {
+  width: 18px;
+  height: 20px;
+  cursor: pointer;
+}
+.events p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 5px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+
+.help {
+  flex-grow: 1;
+}
+
+.help button {
+  width: 57.98px;
+  height: 22.205px;
+  border-radius: 6.949px;
+  border: 0.695px solid #000;
+  background: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.logout img {
+  margin: 5px;
+  width: 18px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.logout p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.sideNav {
+  position: relative;
+}
+
+.yellow {
+  position: absolute;
+  width: 111px;
+  height: 55px;
+  top: 120px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.message {
+  position: relative;
+}
+
+.yellowDot {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 439px;
+  right: 28px;
+}
+
+.number {
+  position: absolute;
+  top: 437px;
+  right: 28px;
+  color: black !important;
+}

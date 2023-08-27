@@ -1,0 +1,141 @@
+.navbar {
+  display: flex;
+  height: 65px;
+  border-radius: 0px 12px 0px 0px;
+  background: #22506c;
+  box-shadow: 4px 0px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 140px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.searchBox {
+  margin-top: 10px;
+  width: 601.008px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  flex-grow: 2;
+  display: flex;
+}
+
+.searchBox img {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 21px;
+  height: 21px;
+}
+
+.searchBox input {
+  width: 400px;
+  height: 28px;
+  margin-left: 20px;
+  padding-top: 10px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.alert {
+  flex-grow: 1;
+  display: flex;
+  margin-top: 13px;
+  margin-left: 75px;
+  margin-right: 20px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.alertInside img:first-child {
+  width: 24.065px;
+  height: 23.405px;
+  margin-top: 5px;
+}
+
+.alertInside img:nth-child(2) {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 15px;
+}
+
+.profileContainer {
+  flex-grow: 1;
+  display: flex;
+}
+
+.profileContainer img {
+  margin-top: 3px;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.profileName {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.profileName p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profileName button {
+  width: 100.943px;
+  height: 19.284px;
+  border-radius: 4.108px;
+  border: 0.437px solid #000;
+  background: #fff;
+  box-shadow: 0px 0.8216480612754822px 4.929887771606445px 0px
+    rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Poppins;
+  font-size: 8.07px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.alert {
+  position: relative;
+}
+
+.messageNum {
+  position: absolute;
+  top: 0px;
+  left: 35px;
+  font-size: 13px !important;
+  font-weight: 600;
+}
+
+.bellNum {
+  position: absolute;
+  top: 0px;
+  left: 88px;
+  font-size: 13px !important;
+  font-weight: 600;
+}
+
+.awardNum {
+  position: absolute;
+  top: 0px;
+  left: 139px;
+  font-size: 13px !important;
+  font-weight: 600;
+}
